@@ -416,6 +416,13 @@
     z-index: 5;
 }
 
+.text-warning{
+    text-align: center;
+    background-color: rgba(149, 232, 240, 0.138);
+    padding: 8px;
+    border-radius: 10px;
+}
+
 /*** Feature End ***/
 
 
