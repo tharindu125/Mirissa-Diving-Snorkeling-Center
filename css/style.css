@@ -17,8 +17,8 @@
 
 .back-to-top {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    left: 20px;
+    bottom: 20px;
     transition: 0.5s;
     z-index: 99;
 }
@@ -69,10 +69,12 @@
 .btn.btn-primary {
     color: var(--bs-white);
     border: none;
+    background: #b18e01;
 }
 
 .btn.btn-primary:hover {
-    background: #b18e01;
+    background-color: rgb(0, 0, 39);
+    border: 1px solid white;
 }
 
 .btn.btn-light {
@@ -422,6 +424,14 @@
     background-color: rgba(149, 232, 240, 0.138);
     padding: 8px;
     border-radius: 10px;
+}
+
+.feature-content-inner h4 {
+    font-size: 18px;
+}
+
+.feature-content-inner p {
+    font-size: 14px;
 }
 
 /*** Feature End ***/
@@ -798,7 +808,7 @@
 }
 
 .blog-content {
-    min-height:700px;
+    min-height:682px;
 }
 
 /*** Blog End ***/
