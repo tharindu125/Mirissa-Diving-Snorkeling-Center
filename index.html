@@ -128,851 +128,897 @@
     </script>
 </head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0 ps-lg-5 pe-lg-5">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="#" class="navbar-brand p-0">
-                    <h4 class="text-dark"><i class="fas fa-swimmer text-warning me-3"></i>
-                        <b class="text-info">Mirissa Diving & Snorkeling Center</b>
-                    </h4>
-                    <!-- <img src="img/logo.png" alt="Logo" loading="lazy"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                        <!-- <div class="nav-item dropdown">
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0 ps-lg-5 pe-lg-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand p-0">
+                <h4 class="text-dark"><i class="fas fa-swimmer text-warning me-3"></i>
+                    <b class="text-info">Mirissa Diving & Snorkeling Center</b>
+                </h4>
+                <!-- <img src="img/logo.png" alt="Logo" loading="lazy"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
                             <div class="dropdown-menu m-0">
                                 <a href="videos.html" class="dropdown-item">Videos</a>
                                 <a href="gallery.html" class="dropdown-item">Images</a>
                             </div>
                         </div> -->
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <div class="team-icon d-flex d-xl-flex justify-content-center me-3">
-                        <a class="btn btn-square rounded-circle mx-1"
-                            href=""
-                            style="background-color: #1877F2; color: white;">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-square rounded-circle mx-1"
-                            href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services"
-                            style="background-color: #25D366; color: white;">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a class="btn btn-square rounded-circle mx-1" href=""
-                            style="background-color: #E4405F; color: white;">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a class="btn btn-square rounded-circle mx-1"
-                            href=""
-                            style="background-color: #34E0A1; color: white;">
-                            <img src="img/TripAdvicer.png" alt="TripAdvisor"
-                                style="width: 30px; height: 30px; border-radius: 50%;" loading="lazy">
-                        </a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="team-icon d-flex d-xl-flex justify-content-center me-3">
+                    <a class="btn btn-square rounded-circle mx-1" href=""
+                        style="background-color: #1877F2; color: white;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-square rounded-circle mx-1"
+                        href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services"
+                        style="background-color: #25D366; color: white;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a class="btn btn-square rounded-circle mx-1" href=""
+                        style="background-color: #E4405F; color: white;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn btn-square rounded-circle mx-1" href=""
+                        style="background-color: #34E0A1; color: white;">
+                        <img src="img/TripAdvicer.png" alt="TripAdvisor"
+                            style="width: 30px; height: 30px; border-radius: 50%;" loading="lazy">
+                    </a>
 
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel">
+        <div class="header-carousel-item">
+            <img src="img/scuba-diving-hero.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
+            <div class="carousel-caption">
+                <div class="container py-4">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
+                            style="animation-delay: 1s;">
+                            <div class="text-start">
+                                <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving &
+                                    Snorkeling Center</h4>
+                                <h1 class="display-4 text-uppercase text-white mb-4">Scuba Diving</h1>
+                                <p class="mb-4 fs-5">Dive deep into an underwater world and uncover the hidden wonders
+                                    of the ocean with our unforgettable scuba diving adventures.</p>
+                                <div class="d-flex flex-shrink-0">
+                                    <a class="btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#scubadiving">Read
+                                        More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
-        <!-- Navbar & Hero End -->
-
-        <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
-            <div class="header-carousel-item">
-                <img src="img/scuba-diving-hero.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
-                <div class="carousel-caption">
-                    <div class="container py-4">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
-                                style="animation-delay: 1s;">
-                                <div class="text-start">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving & Snorkeling Center</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">Scuba Diving</h1>
-                                    <p class="mb-4 fs-5">Experience the thrill of a lifetime by snorkeling alongside the
-                                        blue giants of the ocean.</p>
-                                    <div class="d-flex flex-shrink-0">
-                                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#scubadiving">Read
-                                            More <i class="fa fa-arrow-right ms-1"></i></a>
-                                    </div>
+        <div class="header-carousel-item">
+            <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
+            <div class="carousel-caption">
+                <div class="container py-4">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
+                            style="animation-delay: 1s;">
+                            <div class="text-start">
+                                <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving &
+                                    Snorkeling Center</h4>
+                                <h1 class="display-4 text-uppercase text-white mb-4">PADI Courses</h1>
+                                <p class="mb-4 fs-5">Begin your underwater journey with confidence through our certified
+                                    PADI courses — perfect for beginners and aspiring dive professionals.</p>
+                                <div class="d-flex flex-shrink-0">
+                                    <a class="btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#padiCourses">Read
+                                        More <i class="fa fa-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-carousel-item">
-                <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
-                <div class="carousel-caption">
-                    <div class="container py-4">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
-                                style="animation-delay: 1s;">
-                                <div class="text-start">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving & Snorkeling Center</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">PADI Courses</h1>
-                                    <p class="mb-4 fs-5">Start your underwater journey with our certified PADI courses.</p>
-                                    <div class="d-flex flex-shrink-0">
-                                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#padiCourses">Read
-                                            More <i class="fa fa-arrow-right ms-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-carousel-item">
-                <img src="img/snorkeling-turtles-hero.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
-                <div class="carousel-caption">
-                    <div class="container align-items-center py-4">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
-                                style="animation-delay: 1s;">
-                                <div class="text-start">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving & Snorkeling Center</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">Snorkeling With Turtles</h1>
-                                    <p class="mb-4 fs-5">Dive into the clear sea water of Mirissa on snorkeling tour and
-                                        encounter sea turtles guaranteed!</p>
-                                    <div class="d-flex flex-shrink-0">
-                                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#snorkelingTurtles">Read
-                                            More <i class="fa fa-arrow-right ms-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
-        <!-- Carousel End -->
+        <div class="header-carousel-item">
+            <img src="img/snorkeling-turtles-hero.jpg" class="img-fluid w-100" alt="Image" loading="lazy">
+            <div class="carousel-caption">
+                <div class="container align-items-center py-4">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-xl-7 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s"
+                            style="animation-delay: 1s;">
+                            <div class="text-start">
+                                <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Mirissa Diving &
+                                    Snorkeling Center</h4>
+                                <h1 class="display-4 text-uppercase text-white mb-4">Snorkeling With Turtles</h1>
+                                <p class="mb-4 fs-5">Swim alongside graceful sea turtles in the crystal-clear waters of
+                                    Mirissa for a magical snorkeling experience you’ll never forget.</p>
+                                <div class="d-flex flex-shrink-0">
+                                    <a class="btn btn-primary rounded-pill text-white py-3 px-5"
+                                        href="#snorkelingTurtles">Read
+                                        More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Service Start -->
-        <div class="container-fluid service pb-5">
-            <div class="container service-section py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1 class="display-5 text-dark mb-4">Explore Mirissa Diving & Snorkeling Center</h1>
-                    <p class="mb-0 text-dark">
-                        At Mirissa Diving & Snorkeling, we specialize in unforgettable ocean experiences — from thrilling
-                        scuba diving and fun diving to magical turtle snorkeling and exciting fishing tours. Dive into the
-                        vibrant underwater world of Mirissa and let the adventure begin!
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid service pb-5">
+        <div class="container service-section py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-5 text-dark mb-4">Explore Mirissa Diving & Snorkeling Center</h1>
+                <p class="mb-0 text-dark">
+                    At Mirissa Diving & Snorkeling, we specialize in unforgettable ocean experiences — from thrilling
+                    scuba diving and fun diving to magical turtle snorkeling and exciting fishing tours. Dive into the
+                    vibrant underwater world of Mirissa and let the adventure begin!
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item p-4">
+                        <div class="service-content">
+                            <div class="mb-4">
+                                <i class="fas fa-binoculars fa-4x"></i>
+                            </div>
+                            <Spam href="#" class="h4 d-inline-block mb-3">Unforgettable Attractions</Spam>
+                            <p class="mb-0">Explore the best of Mirissa with us — from swimming with turtles and
+                                spotting whales and dolphins to discovering the vibrant marine life that makes this
+                                coast so special.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item p-4">
+                        <div class="service-content">
+                            <div class="mb-4">
+                                <i class="fas fa-tags fa-4x"></i>
+                            </div>
+                            <spam href="#" class="h4 d-inline-block mb-3">Affordable Prices</spam>
+                            <p class="mb-0">Enjoy top-quality service at a great value. Our friendly team is committed
+                                to providing exceptional experiences, with flexible, negotiable packages to match your
+                                needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item p-4">
+                        <div class="service-content">
+                            <div class="mb-4">
+                                <i class="fas fa-shield-alt fa-4x"></i>
+                            </div>
+                            <spam href="#" class="h4 d-inline-block mb-3">Safety First</spam>
+                            <p class="mb-0">Your safety is our priority. We provide all the essential safety equipment
+                                and take every precaution to ensure a secure and enjoyable experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-item p-4">
+                        <div class="service-content">
+                            <div class="mb-4">
+                                <i class="fas fa-utensils fa-4x"></i>
+                            </div>
+                            <spam href="#" class="h4 d-inline-block mb-3">Delicious Refreshments</spam>
+                            <p class="mb-0">Some of our tours include a complimentary breakfast or a relaxing cup of tea
+                                with cookies — a perfect start or end to your adventure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Attractions Start -->
+    <div class="container-fluid attractions py-5">
+        <div class="container attractions-section py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Tour Packages</h4>
+                <h1 class="display-5 text-white mb-4">Your Sea Journey Begins Here</h1>
+                <p class="text-white mb-0">
+                    Dive into unforgettable adventures with our handpicked underwater experiences. Explore colorful
+                    coral gardens, encounter majestic sea creatures, and create lasting memories beneath the waves of
+                    Mirissa’s stunning coastline.
+                </p>
+            </div>
+            <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/Fun-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100"
+                        alt="Turtle" loading="lazy">
+                    <a href="#fundiving" class="attractions-name">Fun Diving</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="img/Discover-Scuba-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Blue Whale" loading="lazy">
+                    <a href="#scubadiving" class="attractions-name">Scuba Diving</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="0.6s">
+                    <img src="img/Snorkeling-With-Turtles-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Humpback Whale" loading="lazy">
+                    <a href="#snorkelingTurtles" class="attractions-name">Snorkeling With Turtles</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="0.8s">
+                    <img src="img/Night-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Whale shark" loading="lazy">
+                    <a href="#nightdiving" class="attractions-name">Night Diving</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
+                    <img src="img/Night-Snorkeling-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
+                    <a href="#nightSnorkeling" class="attractions-name">Night Snorkeling</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
+                    <img src="img/Deep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
+                    <a href="#deepFishing" class="attractions-name">Deep Sea Fishing Tours</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
+                    <img src="img/Boat-Tours-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100"
+                        alt="Fishing Time" loading="lazy">
+                    <a href="#boatTours" class="attractions-name">Boat Tours</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
+                    <img src="img/PADI-Cources-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
+                    <a href="#padiCourses" class="attractions-name">PADI Courses</a>
+                </div>
+                <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
+                    <img src="img/reep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                        class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
+                    <a href="#reepFishing" class="attractions-name">Reef Sea Fishing Tours</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Attractions End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-item">
+                        <img src="img/ScubaDiving.png" class="img-fluid rounded w-100" alt="Image" loading="lazy">
+                        <div class="feature-content p-3">
+                            <div class="feature-content-inner">
+                                <h4 class="text-warning">SCUBA DIVING</h4>
+                                <p class="text-white pt-3">
+                                    Explore the ocean depths with our expert-guided scuba diving tours. Experience
+                                    vibrant coral reefs, swim alongside exotic marine life, and discover the hidden
+                                    wonders beneath the waves.
+                                </p>
+
+                                <p class="text-white pt-1">
+                                    Perfect for both beginners and seasoned divers.
+                                </p>
+                                <a href="#scubadiving" class="btn btn-primary rounded-pill py-2 px-4 ">Read More <i
+                                        class="fa fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-item">
+                        <img src="img/feature-2.jpg" class="img-fluid rounded w-100" alt="Image" loading="lazy">
+                        <div class="feature-content p-3">
+                            <div class="feature-content-inner">
+                                <h4 class="text-warning">PADI COURSES</h4>
+                                <p class="text-white pt-3">
+                                    Start your underwater journey with our certified PADI courses.
+                                </p>
+                                <p class="text-white pt-1">
+                                    Whether you're a beginner or advancing your skills, our professional instructors
+                                    provide safe, hands-on training to turn your passion for diving into a lifelong
+                                    adventure.
+                                </p>
+                                <a href="#padiCourses" class="btn btn-primary rounded-pill py-2 px-4">Read More <i
+                                        class="fa fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="feature-item">
+                        <img src="img/feature-3.jpg" class="img-fluid rounded w-100" alt="Image" loading="lazy">
+                        <div class="feature-content p-3">
+                            <div class="feature-content-inner">
+                                <h4 class="text-warning">SNORKELING WITH TURTLES</h4>
+                                <p class="text-white pt-3">
+                                    Swim alongside majestic sea turtles in their natural habitat. Our guided snorkeling
+                                    tours offer a safe and unforgettable experience, perfect for all ages and skill
+                                    levels.
+                                </p>
+                                <p class="text-white pt-1">
+                                    Guaranteed turtle sightings up close.
+                                </p>
+                                <a href="#snorkelingTurtles" class="btn btn-primary rounded-pill py-2 px-4">Read More <i
+                                        class="fa fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog py-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Services</h4>
+                <h1 class="display-5 mb-4">Tour Packages</h1>
+            </div>
+
+            <div class="row g-4 mb-3" id="packegess">
+                <!-- Service - 1 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s" id="fundiving">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Fun-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Fun Diving</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Discover the Best of Mirissa’s Underwater World</h4>
+                            <p class="mb-4">
+                                Explore Mirissa’s vibrant underwater world with Mirissa Diving & Snorkeling Center. Our
+                                Fun Diving tours, led by experienced instructors,
+                                offer certified divers a safe and unforgettable dive through crystal-clear waters,
+                                colorful coral reefs, and rich marine life.
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 1-Tank Dive – $45</b></p>
+                            <p class="mb-4"><b>🔹 2-Tank Dive – $75</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Certified dive instructor</p>
+                            <p class="mb-1">✔ All diving equipment</p>
+                            <p class="mb-1">✔ Safety briefing</p>
+                            <p>✔ Complimentary snacks and refreshments after the dive</p>
+
+                            <p class="mb-4">
+                                Come experience the joy of fun diving with us and see why Mirissa is one of Sri Lanka’s
+                                top dive destinations!
+                            </p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 2 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s" id="scubadiving">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Discover-Scuba-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Discover Scuba Diving</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Discover the Underwater World of Mirissa</h4>
+                            <p class="mb-4">
+                                Whether you're a beginner or certified diver, our expert instructors ensure a safe and
+                                fun dive as you explore vibrant coral reefs,
+                                colorful fish, and stunning marine life. Equipment provided just bring your adventurous
+                                spirit!
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Diver – $50</b></p>
+                            <p class="mb-4"><b>🔹 Duration : Approximately 1 hour</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Professional dive instructor</p>
+                            <p class="mb-1">✔ Full set of diving equipment</p>
+                            <p class="mb-1">✔ Safety briefing and basic training (for beginners)</p>
+                            <p class="mb-1">✔ Optional underwater photos & videos</p>
+                            <p>✔ Delicious refreshments and snacks after the dive</p>
+
+                            <p class="mb-4"> Join us in Mirissa and dive into a world of wonder beneath the waves!</p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 3 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="snorkelingTurtles">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Snorkeling-With-Turtles-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Snorkeling With Turtles</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Snorkeling With Turtles – Swim with Ocean’s Gentle Giants
+                            </h4>
+                            <p class="mb-4">
+                                Enjoy a 2-hour snorkeling adventure in Mirissa’s warm, clear waters, where you’re
+                                guaranteed to swim with sea turtles in their
+                                natural habitat. Ideal for beginners and nature lovers, this eco-friendly tour is guided
+                                by experienced locals and offers unforgettable,
+                                up-close encounters.
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Price: $20 per person</b></p>
+                            <p class="mb-1"><b>🔹 Duration : Approximately 2 hour</b></p>
+                            <p class="mb-4"><b>🔹 Skill Level: Beginner-friendly</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Snorkeling gear (mask, snorkel, fins)</p>
+                            <p class="mb-1">✔ Friendly and professional snorkeling guide</p>
+                            <p class="mb-1">✔ Safety briefing before the tour</p>
+                            <p>✔ Optional underwater photos & videos</p>
+
+                            <p class="mb-4">
+                                Don’t miss your chance to swim alongside the friendly sea turtles of Mirissa!
+                            </p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-3">
+                <!-- Service - 4 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s" id="nightdiving">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Night-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Night Diving</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Night Diving – Discover the Ocean After Dark</h4>
+                            <p class="mb-4">
+                                Discover the magic of the ocean after dark with our Night Diving adventure in Mirissa.
+                                Guided by experienced professionals,
+                                you'll explore a vibrant underwater world illuminated by your dive light, encountering
+                                nocturnal marine life like octopuses,
+                                lobsters, and glowing plankton!
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Price: $80 per person</b></p>
+                            <p class="mb-4"><b>🔹 Duration: 1 to 3 hours</b><br>(based on sea conditions & diver
+                                comfort)</p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Full set of diving equipment with dive torch</p>
+                            <p class="mb-1">✔ Professional night dive instructor</p>
+                            <p class="mb-1">✔ Safety briefing and orientation</p>
+                            <p>✔ Optional underwater night photos & videos</p>
+
+                            <p class="mb-4">See the ocean like never before with a thrilling Night Dive in Mirissa!</p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 5 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s" id="nightSnorkeling">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Night-Snorkeling-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Night Snorkeling</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Night Snorkeling – Explore Mirissa’s Underwater World
+                                After Sunset</h4>
+                            <p class="mb-4">
+                                Experience the ocean like never before with our Night Snorkeling tour in Mirissa. As
+                                darkness falls, discover
+                                glowing plankton and nocturnal reef life on this 1.5-hour guided adventure. With
+                                underwater lights and expert guides,
+                                it’s a safe, magical, and unforgettable journey beneath the waves.
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Price: $40 per person</b></p>
+                            <p class="mb-4"><b>🔹 Duration: 1 hour 30 minutes</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Snorkeling gear (mask, snorkel, fins)</p>
+                            <p class="mb-1">✔ Waterproof dive light</p>
+                            <p class="mb-1">✔ Safety briefing before the tour</p>
+                            <p>✔ Optional underwater night photos & videos</p>
+
+                            <p class="mb-4">
+                                Experience the thrill of the ocean after dark with Night Snorkeling in
+                                Mirissa.
+                            </p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 6 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="deepFishing">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Deep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Deep Sea Fishing Tours</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Deep Sea Fishing Tours – Adventure on the Open Ocean
+                            </h4>
+                            <p class="mb-4">
+                                Embark on a thrilling 4-hour Deep Sea Fishing trip in Mirissa! Perfect for both
+                                beginners and seasoned anglers,
+                                our skilled crew will guide you in catching big game fish while you enjoy stunning ocean
+                                views and a relaxing day at sea.
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-4"><b>🔹 Age Limit: Suitable for all ages</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Professional fishing guide and crew</p>
+                            <p class="mb-1">✔ All fishing gear and bait provided</p>
+                            <p class="mb-1">✔ Safety briefing and instructions</p>
+                            <p>✔ Delicious food and refreshments served onboard</p>
+
+                            <p class="mb-4">Ready for a memorable fishing experience? Join us for the Deep Sea
+                                Fishing Tours in Mirissa and reel in your big catch!</p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-3">
+                <!-- Service - 7 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s" id="boatTours">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/Boat-Tours-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Boat Tours</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Scenic Boat Tours – Relax and Explore the Beauty
+                                of Mirissa</h4>
+                            <p class="mb-4">
+                                Relax and unwind on a scenic 1.5-hour boat tour along Mirissa’s beautiful coastline.
+                                Perfect for all ages, this
+                                peaceful journey led by a friendly local captain lets you explore hidden coves, enjoy
+                                ocean breezes, and take in the
+                                natural beauty of Sri Lanka.
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Age Limit: All ages welcome</b></p>
+                            <p class="mb-4"><b>🔹 Duration: 1 to 30 hours</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Comfortable and safe boat ride</p>
+                            <p class="mb-1">✔ Experienced local boat guide</p>
+                            <p class="mb-1">✔ Coastal sightseeing and photo opportunities</p>
+                            <p>✔ Life jackets for all passengers</p>
+
+                            <p class="mb-4">
+                                Discover hidden coves, coastal beauty, and marine life along the way. Book your boat
+                                tour today and make your trip unforgettable!
+                            </p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 5 -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="reepFishing">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/reep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">Reef Sea Fishing Tours</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">Reef Sea Fishing Tours – A Relaxing Coastal Fishing
+                                Experience</h4>
+                            <p class="mb-4">
+                                Enjoy a 3-hour reef fishing tour in the calm, fish-rich coastal
+                                waters around Mirissa. This experience is ideal for those who want a more
+                                relaxed fishing adventure closer to shore — no experience needed!
+                            </p>
+
+                            <h6>Packages & Prices:</h6>
+                            <p class="mb-1"><b>🔹 Duration: 3 hours</b></p>
+                            <p class="mb-4"><b>🔹 Age Limit: All ages welcome</b></p>
+
+                            <h6>What’s Included :</h6>
+                            <p class="mb-1">✔ Friendly and experienced fishing guide</p>
+                            <p class="mb-1">✔ All fishing gear and bait provided</p>
+                            <p class="mb-1">✔ Tasty food and refreshments served onboard</p>
+                            <p>✔ Safety equipment for all participants</p>
+
+                            <p class="mb-4">Relax, fish, and enjoy the sea breeze with our Reef Sea Fishing Tour in
+                                Mirissa!</p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service - 6 -->
+                <div class="col-lg-4 wow fadeInUp padiCourses" data-wow-delay="0.4s" id="padiCourses">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/PADI-Cources-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
+                                class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
+                            <div class="blog-category py-2 px-4">PADI Courses</div>
+                        </div>
+                        <div class="blog-content p-4">
+                            <h4 class="h4 d-inline-block mb-4">PADI Courses – Become a Certified Diver in Mirissa</h4>
+                            <p class="mb-4">
+                                Train with professional PADI-certified instructors in the beautiful waters of Mirissa
+                                and earn your globally
+                                recognized diving license. Whether you're a beginner or looking to advance, our safe,
+                                high-quality courses offer
+                                the perfect setting to build your diving skills.</p>
+
+                            <h5 class="d-inline-block mb-2">Available Courses : </h5>
+
+                            <h6>✅ PADI Open Water Diver License</h6>
+                            <p class="mb-1"><b>🔹 Price: $400 per person</b></p>
+                            <p class="mb-4">Perfect for beginners, this course includes theory, pool sessions,
+                                and open water dives. After completion, you’ll be certified to dive up to 18
+                                meters anywhere in the world.</p>
+
+
+                            <h6>✅ PADI Advanced License</h6>
+                            <p class="mb-1"><b>🔹 Price: $400 per person</b></p>
+                            <p class="mb-4">This course is for certified divers who want to go deeper and
+                                improve their skills. Learn navigation, deep diving, and more while exploring
+                                Mirissa’s rich marine life.</p>
+
+                            <p class="mb-4">Get certified in paradise become a PADI Diver with us in Mirissa!</p>
+                            <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book
+                                Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-2">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-3 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Testimonials</h4>
+                <h1 class="display-5 text-white mb-0">Our Clients Riviews</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                <div class="testimonial-item p-4">
+                    <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                        mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
+                        velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
                     </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item p-4">
-                            <div class="service-content">
-                                <div class="mb-4">
-                                    <i class="fas fa-binoculars fa-4x"></i>
-                                </div>
-                                <Spam href="#" class="h4 d-inline-block mb-3">Unforgettable Attractions</Spam>
-                                <p class="mb-0">Explore the best of Mirissa with us — from swimming with turtles and
-                                    spotting whales and dolphins to discovering the vibrant marine life that makes this
-                                    coast so special.
-                                </p>
+                    <div class="testimonial-inner">
+                        <div class="testimonial-img">
+                            <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
+                            <div class="testimonial-quote btn-lg-square rounded-circle"><i
+                                    class="fa fa-quote-right"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item p-4">
-                            <div class="service-content">
-                                <div class="mb-4">
-                                    <i class="fas fa-tags fa-4x"></i>
-                                </div>
-                                <spam href="#" class="h4 d-inline-block mb-3">Affordable Prices</spam>
-                                <p class="mb-0">Enjoy top-quality service at a great value. Our friendly team is committed
-                                    to providing exceptional experiences, with flexible, negotiable packages to match your
-                                    needs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item p-4">
-                            <div class="service-content">
-                                <div class="mb-4">
-                                    <i class="fas fa-shield-alt fa-4x"></i>
-                                </div>
-                                <spam href="#" class="h4 d-inline-block mb-3">Safety First</spam>
-                                <p class="mb-0">Your safety is our priority. We provide all the essential safety equipment
-                                    and take every precaution to ensure a secure and enjoyable experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-item p-4">
-                            <div class="service-content">
-                                <div class="mb-4">
-                                    <i class="fas fa-utensils fa-4x"></i>
-                                </div>
-                                <spam href="#" class="h4 d-inline-block mb-3">Delicious Refreshments</spam>
-                                <p class="mb-0">Some of our tours include a complimentary breakfast or a relaxing cup of tea
-                                    with cookies — a perfect start or end to your adventure.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
 
-        <!-- Attractions Start -->
-        <div class="container-fluid attractions py-5">
-            <div class="container attractions-section py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Tour Packages</h4>
-                    <h1 class="display-5 text-white mb-4">Your Sea Journey Begins Here</h1>
-                    <p class="text-white mb-0">
-                        Dive into unforgettable adventures with our handpicked underwater experiences. Explore colorful
-                        coral gardens, encounter majestic sea creatures, and create lasting memories beneath the waves of
-                        Mirissa’s stunning coastline.
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4">
+                    <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                        mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
+                        velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
                     </p>
-                </div>
-                <div class="owl-carousel attractions-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="img/Fun-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Turtle" loading="lazy">
-                        <a href="#fundiving" class="attractions-name">Fun Diving</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="img/Discover-Scuba-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Blue Whale" loading="lazy">
-                        <a href="#scubadiving" class="attractions-name">Scuba Diving</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.6s">
-                        <img src="img/Snorkeling-With-Turtles-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Humpback Whale"
-                            loading="lazy">
-                        <a href="#snorkelingTurtles" class="attractions-name">Snorkeling With Turtles</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="0.8s">
-                        <img src="img/Night-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Whale shark" loading="lazy">
-                        <a href="#nightdiving" class="attractions-name">Night Diving</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/Night-Snorkeling-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
-                        <a href="#nightSnorkeling" class="attractions-name">Night Snorkeling</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/Deep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
-                        <a href="#deepFishing" class="attractions-name">Deep Sea Fishing Tours</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/Boat-Tours-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
-                        <a href="#boatTours" class="attractions-name">Boat Tours</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/PADI-Cources-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
-                        <a href="#padiCourses" class="attractions-name">PADI Courses</a>
-                    </div>
-                    <div class="attractions-item wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/reep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg" class="img-fluid rounded w-100" alt="Fishing Time" loading="lazy">
-                        <a href="#reepFishing" class="attractions-name">Reef Sea Fishing Tours</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Attractions End -->
-
-        <!-- Feature Start -->
-        <div class="container-fluid feature py-5">
-            <div class="container py-5">
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item">
-                            <img src="img/ScubaDiving.png" class="img-fluid rounded w-100" alt="Image" loading="lazy">
-                            <div class="feature-content p-3">
-                                <div class="feature-content-inner">
-                                    <h4 class="text-warning">SCUBA DIVING</h4>
-                                    <p class="text-white pt-3">
-                                        Explore the ocean depths with our expert-guided scuba diving tours. Experience
-                                        vibrant coral reefs, swim alongside exotic marine life, and discover the hidden
-                                        wonders beneath the waves.
-                                    </p>
-
-                                    <p class="text-white pt-1">
-                                        Perfect for both beginners and seasoned divers.
-                                    </p>
-                                    <a href="#scubadiving" class="btn btn-primary rounded-pill py-2 px-4 ">Read More <i
-                                            class="fa fa-arrow-right ms-1"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item">
-                            <img src="img/feature-2.jpg" class="img-fluid rounded w-100" alt="Image" loading="lazy">
-                            <div class="feature-content p-3">
-                                <div class="feature-content-inner">
-                                    <h4 class="text-warning">PADI COURSES</h4>
-                                    <p class="text-white pt-3">
-                                        Start your underwater journey with our certified PADI courses.
-                                    </p>
-                                    <p class="text-white pt-1">
-                                        Whether you're a beginner or advancing your skills, our professional instructors
-                                        provide safe, hands-on training to turn your passion for diving into a lifelong
-                                        adventure.
-                                    </p>
-                                    <a href="#padiCourses" class="btn btn-primary rounded-pill py-2 px-4">Read More <i
-                                            class="fa fa-arrow-right ms-1"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item">
-                            <img src="img/feature-3.jpg" class="img-fluid rounded w-100" alt="Image" loading="lazy">
-                            <div class="feature-content p-3">
-                                <div class="feature-content-inner">
-                                    <h4 class="text-warning">SNORKELING WITH TURTLES</h4>
-                                    <p class="text-white pt-3">
-                                        Swim alongside majestic sea turtles in their natural habitat. Our guided snorkeling
-                                        tours offer a safe and unforgettable experience, perfect for all ages and skill
-                                        levels.
-                                    </p>
-                                    <p class="text-white pt-1">
-                                        Guaranteed turtle sightings up close.
-                                    </p>
-                                    <a href="#snorkelingTurtles" class="btn btn-primary rounded-pill py-2 px-4">Read More <i
-                                            class="fa fa-arrow-right ms-1"></i></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Feature End -->
-
-        <!-- Blog Start -->
-        <div class="container-fluid blog py-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-5 mb-4">Tour Packages</h1>
-                </div>
-                
-                <div class="row g-4 mb-3" id="packegess">
-                    <!-- Service - 1 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s"id="fundiving">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Fun-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                        class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Fun Diving</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Discover the Best of Mirissa’s Underwater World</h4>
-                                <p class="mb-4">
-                                    Explore Mirissa’s vibrant underwater world with Mirissa Diving & Snorkeling Center. Our Fun Diving tours, led by experienced instructors, 
-                                    offer certified divers a safe and unforgettable dive through crystal-clear waters, colorful coral reefs, and rich marine life.
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 1-Tank Dive – $45</b></p>
-                                <p class="mb-4"><b>🔹 2-Tank Dive – $75</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Certified dive instructor</p>
-                                <p class="mb-1">✔ All diving equipment</p>
-                                <p class="mb-1">✔ Safety briefing</p>
-                                <p>✔ Complimentary snacks and refreshments after the dive</p>
-
-                                <p class="mb-4">
-                                    Come experience the joy of fun diving with us and see why Mirissa is one of Sri Lanka’s top dive destinations!
-                                </p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
+                    <div class="testimonial-inner">
+                        <div class="testimonial-img">
+                            <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
+                            <div class="testimonial-quote btn-lg-square rounded-circle"><i
+                                    class="fa fa-quote-right"></i>
                             </div>
                         </div>
-                    </div>
-                    <!-- Service - 2 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s" id="scubadiving">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Discover-Scuba-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Discover Scuba Diving</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Discover the Underwater World of Mirissa</h4>
-                                <p class="mb-4">
-                                    Whether you're a beginner or certified diver, our expert instructors ensure a safe and fun dive as you explore vibrant coral reefs, 
-                                    colorful fish, and stunning marine life. Equipment provided just bring your adventurous spirit!
-                                </p>
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
 
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Diver – $50</b></p>
-                                <p class="mb-4"><b>🔹 Duration : Approximately 1 hour</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Professional dive instructor</p>
-                                <p class="mb-1">✔ Full set of diving equipment</p>
-                                <p class="mb-1">✔ Safety briefing and basic training (for beginners)</p>
-                                <p class="mb-1">✔ Optional underwater photos & videos</p>
-                                <p>✔ Delicious refreshments and snacks after the dive</p>
-
-                                <p class="mb-4"> Join us in Mirissa and dive into a world of wonder beneath the waves!</p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service - 3 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="snorkelingTurtles">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Snorkeling-With-Turtles-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Snorkeling With Turtles</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Snorkeling With Turtles – Swim with Ocean’s Gentle Giants</h4>
-                                <p class="mb-4">
-                                    Enjoy a 2-hour snorkeling adventure in Mirissa’s warm, clear waters, where you’re guaranteed to swim with sea turtles in their 
-                                    natural habitat. Ideal for beginners and nature lovers, this eco-friendly tour is guided by experienced locals and offers unforgettable, 
-                                    up-close encounters.
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Price: $20 per person</b></p>
-                                <p class="mb-1"><b>🔹 Duration : Approximately 2 hour</b></p>
-                                <p class="mb-4"><b>🔹 Skill Level: Beginner-friendly</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Snorkeling gear (mask, snorkel, fins)</p>
-                                <p class="mb-1">✔ Friendly and professional snorkeling guide</p>
-                                <p class="mb-1">✔ Safety briefing before the tour</p>
-                                <p>✔ Optional underwater photos & videos</p>
-
-                                <p class="mb-4">
-                                    Don’t miss your chance to swim alongside the friendly sea turtles of Mirissa!
-                                </p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="row g-4 mb-3">
-                    <!-- Service - 4 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s" id="nightdiving">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Night-Diving-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Night Diving</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Night Diving – Discover the Ocean After Dark</h4>
-                                <p class="mb-4">
-                                    Discover the magic of the ocean after dark with our Night Diving adventure in Mirissa. Guided by experienced professionals, 
-                                    you'll explore a vibrant underwater world illuminated by your dive light, encountering nocturnal marine life like octopuses, 
-                                    lobsters, and glowing plankton!
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Price: $80 per person</b></p>
-                                <p class="mb-4"><b>🔹 Duration: 1 to 3 hours</b><br>(based on sea conditions & diver comfort)</p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Full set of diving equipment with dive torch</p>
-                                <p class="mb-1">✔ Professional night dive instructor</p>
-                                <p class="mb-1">✔ Safety briefing and orientation</p>
-                                <p>✔ Optional underwater night photos & videos</p>
-
-                                <p class="mb-4">See the ocean like never before with a thrilling Night Dive in Mirissa!</p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
+                <div class="testimonial-item p-4">
+                    <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                        mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
+                        velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
+                    </p>
+                    <div class="testimonial-inner">
+                        <div class="testimonial-img">
+                            <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
+                            <div class="testimonial-quote btn-lg-square rounded-circle">
+                                <i class="fa fa-quote-right"></i>
                             </div>
                         </div>
-                    </div>
-                    <!-- Service - 5 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s" id="nightSnorkeling">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Night-Snorkeling-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Night Snorkeling</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Night Snorkeling – Explore Mirissa’s Underwater World
-                                    After Sunset</h4>
-                                <p class="mb-4">
-                                    Experience the ocean like never before with our Night Snorkeling tour in Mirissa. As darkness falls, discover 
-                                    glowing plankton and nocturnal reef life on this 1.5-hour guided adventure. With underwater lights and expert guides, 
-                                    it’s a safe, magical, and unforgettable journey beneath the waves.
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Price: $40 per person</b></p>
-                                <p class="mb-4"><b>🔹 Duration: 1 hour 30 minutes</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Snorkeling gear (mask, snorkel, fins)</p>
-                                <p class="mb-1">✔ Waterproof dive light</p>
-                                <p class="mb-1">✔ Safety briefing before the tour</p>
-                                <p>✔ Optional underwater night photos & videos</p>
-
-                                <p class="mb-4">
-                                    Experience the thrill of the ocean after dark with Night Snorkeling in
-                                    Mirissa. 
-                                </p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service - 6 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="deepFishing">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Deep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Deep Sea Fishing Tours</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Deep Sea Fishing Tours – Adventure on the Open Ocean
-                                </h4>
-                                <p class="mb-4">
-                                    Embark on a thrilling 4-hour Deep Sea Fishing trip in Mirissa! Perfect for both beginners and seasoned anglers, 
-                                    our skilled crew will guide you in catching big game fish while you enjoy stunning ocean views and a relaxing day at sea.
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-4"><b>🔹 Age Limit: Suitable for all ages</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Professional fishing guide and crew</p>
-                                <p class="mb-1">✔ All fishing gear and bait provided</p>
-                                <p class="mb-1">✔ Safety briefing and instructions</p>
-                                <p >✔ Delicious food and refreshments served onboard</p>
-
-                                <p class="mb-4">Ready for a memorable fishing experience? Join us for the Deep Sea
-                                    Fishing Tours in Mirissa and reel in your big catch!</p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        
-                <div class="row g-4 mb-3">
-                    <!-- Service - 7 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s" id="boatTours">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/Boat-Tours-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Boat Tours</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Scenic Boat Tours – Relax and Explore the Beauty
-                                    of Mirissa</h4>
-                                <p class="mb-4">
-                                    Relax and unwind on a scenic 1.5-hour boat tour along Mirissa’s beautiful coastline. Perfect for all ages, this 
-                                    peaceful journey led by a friendly local captain lets you explore hidden coves, enjoy ocean breezes, and take in the 
-                                    natural beauty of Sri Lanka.
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Age Limit: All ages welcome</b></p>
-                                <p class="mb-4"><b>🔹 Duration: 1 to 30 hours</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Comfortable and safe boat ride</p>
-                                <p class="mb-1">✔ Experienced local boat guide</p>
-                                <p class="mb-1">✔ Coastal sightseeing and photo opportunities</p>
-                                <p>✔ Life jackets for all passengers</p>
-
-                                <p class="mb-4">
-                                    Discover hidden coves, coastal beauty, and marine life along the way. Book your boat tour today and make your trip unforgettable!
-                                </p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service - 5 -->
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s" id="reepFishing">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/reep-Sea-Fishing-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">Reef Sea Fishing Tours</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">Reef Sea Fishing Tours – A Relaxing Coastal Fishing Experience</h4>
-                                <p class="mb-4">
-                                    Enjoy a 3-hour reef fishing tour in the calm, fish-rich coastal
-                                    waters around Mirissa. This experience is ideal for those who want a more
-                                    relaxed fishing adventure closer to shore — no experience needed!
-                                </p>
-
-                                <h6>Packages & Prices:</h6>
-                                <p class="mb-1"><b>🔹 Duration: 3 hours</b></p>
-                                <p class="mb-4"><b>🔹 Age Limit: All ages welcome</b></p>
-
-                                <h6>What’s Included :</h6>
-                                <p class="mb-1">✔ Friendly and experienced fishing guide</p>
-                                <p class="mb-1">✔ All fishing gear and bait provided</p>
-                                <p class="mb-1">✔ Tasty food and refreshments served onboard</p>
-                                <p>✔ Safety equipment for all participants</p>
-
-                                <p class="mb-4">Relax, fish, and enjoy the sea breeze with our Reef Sea Fishing Tour in Mirissa!</p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service - 6 -->
-                    <div class="col-lg-4 wow fadeInUp padiCourses" data-wow-delay="0.4s" id="padiCourses">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/PADI-Cources-in-Mirissa-Diving-&-Snorkeling-Center.jpg"
-                                    class="img-fluid w-100 rounded-top" alt="Image" loading="lazy">
-                                <div class="blog-category py-2 px-4">PADI Courses</div>
-                            </div>
-                            <div class="blog-content p-4">
-                                <h4 class="h4 d-inline-block mb-4">PADI Courses – Become a Certified Diver in Mirissa</h4>
-                                <p class="mb-4">
-                                    Train with professional PADI-certified instructors in the beautiful waters of Mirissa and earn your globally 
-                                    recognized diving license. Whether you're a beginner or looking to advance, our safe, high-quality courses offer 
-                                    the perfect setting to build your diving skills.</p>
-
-                                <h5 class="d-inline-block mb-2">Available Courses : </h5>
-
-                                <h6>✅ PADI Open Water Diver License</h6>
-                                <p class="mb-1"><b>🔹 Price: $400 per person</b></p>
-                                <p class="mb-4">Perfect for beginners, this course includes theory, pool sessions,
-                                    and open water dives. After completion, you’ll be certified to dive up to 18
-                                    meters anywhere in the world.</p>
-
-
-                                <h6>✅ PADI Advanced License</h6>
-                                <p class="mb-1"><b>🔹 Price: $400 per person</b></p>
-                                <p class="mb-4">This course is for certified divers who want to go deeper and
-                                    improve their skills. Learn navigation, deep diving, and more while exploring
-                                    Mirissa’s rich marine life.</p>
-
-                                <p class="mb-4">Get certified in paradise become a PADI Diver with us in Mirissa!</p>
-                                <p class="btn btn-info rounded-pill py-2 px-4" onclick="location.href='contact.html';">Book Now</p>
+                        <div class="ms-4">
+                            <h4>Person Name</h4>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Blog End -->
+    </div>
+    <!-- Testimonial End -->
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial py-2">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-3 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Testimonials</h4>
-                    <h1 class="display-5 text-white mb-0">Our Clients Riviews</h1>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="testimonial-item p-4">
-                        <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                            mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
-                            velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
-                        </p>
-                        <div class="testimonial-inner">
-                            <div class="testimonial-img">
-                                <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
-                                <div class="testimonial-quote btn-lg-square rounded-circle"><i
-                                        class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                            <div class="ms-4">
-                                <h4>Person Name</h4>
-                                
-                                <div class="d-flex text-primary">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-2 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-5 footer-main">
+                    <div class="footer-item">
+                        <a href="index.html" class="p-0">
+                            <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Mirissa Diving &
+                                Snorkeling Center</h4>
+                            <!-- <img src="img/logo.png" alt="Logo" loading="lazy"> -->
+                        </a>
+                        <div class="d-flex align-items-center link">
+                            <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                            <p class="text-white mb-0">
+                                <a class="link-location"
+                                    href="https://www.google.lk/maps/place/Mirissa+Turtle+Snorkeling+Tours/@5.9380512,80.4776574,18z/data=!4m6!3m5!1s0x3ae13f736e11462d:0xcc18d6e61f30d130!8m2!3d5.9382831!4d80.4776261!16s%2Fg%2F11ltdgf1jt?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+                                    NO/15 Thappawatta Rd, Mirissa, 81740
+                                </a>
+                            </p>
                         </div>
-                    </div>
-                    <div class="testimonial-item p-4">
-                        <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                            mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
-                            velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
-                        </p>
-                        <div class="testimonial-inner">
-                            <div class="testimonial-img">
-                                <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
-                                <div class="testimonial-quote btn-lg-square rounded-circle"><i
-                                        class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                            <div class="ms-4">
-                                <h4>Person Name</h4>
-                                
-                                <div class="d-flex text-primary">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
+                        <div class="d-flex align-items-center link">
+                            <i class="fas fa-envelope text-primary me-3"></i>
+                            <p class="text-white mb-0">
+                                <a class="link-aemail"
+                                    href="mailto:mirissadivingandsnorkelingcent@gmail.com">mirissadivingandsnorkelingcent@gmail.com</a>
+                            </p>
                         </div>
-                    </div>
-                    <div class="testimonial-item p-4">
-                        <p class="text-white fs-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-                            mollitia fugiat, nihil autem reprehenderit aperiam maxime minima consequatur, nam iste eius
-                            velit perferendis voluptatem at atque neque soluta reiciendis doloremque.
-                        </p>
-                        <div class="testimonial-inner">
-                            <div class="testimonial-img">
-                                <img src="img/TripAdvicer.png" class="img-fluid" alt="Image" loading="lazy">
-                                <div class="testimonial-quote btn-lg-square rounded-circle">
-                                    <i class="fa fa-quote-right"></i>
-                                </div>
-                            </div>
-                            <div class="ms-4">
-                                <h4>Person Name</h4>
-                                <div class="d-flex text-primary">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>
+                        <div class="d-flex align-items-center link">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            <p class="text-white mb-0"><a class="link-phone" href="tel:+94713396663">+94 71 339 6663</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-2 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-4">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-5 footer-main">
-                        <div class="footer-item">
-                            <a href="index.html" class="p-0">
-                                <h4 class="text-white mb-4"><i class="fas fa-swimmer text-primary me-3"></i>Mirissa Diving & Snorkeling Center</h4>
-                                <!-- <img src="img/logo.png" alt="Logo" loading="lazy"> -->
+                <div class="col-md-6 col-lg-6 col-xl-2 footer-main">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <a href="about.html" class="link"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="contact.html" class="link"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        <!-- <a href="videos.html" class="link"><i class="fas fa-angle-right me-2"></i> Videos</a> -->
+                        <a href="gallery.html" class="link"><i class="fas fa-angle-right me-2"></i> Images</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 footer-main">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">Social Media</h4>
+                        <div class="team-icon d-flex d-xl-flex link">
+                            <a class="btn btn-square rounded-circle mx-1" href=""
+                                style="background-color: #1877F2; color: white;">
+                                <i class="fab fa-facebook-f"></i>
                             </a>
-                            <div class="d-flex align-items-center link">
-                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">
-                                    <a class="link-location"
-                                        href="https://www.google.lk/maps/place/Mirissa+Turtle+Snorkeling+Tours/@5.9380512,80.4776574,18z/data=!4m6!3m5!1s0x3ae13f736e11462d:0xcc18d6e61f30d130!8m2!3d5.9382831!4d80.4776261!16s%2Fg%2F11ltdgf1jt?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
-                                        NO/15 Thappawatta Rd, Mirissa, 81740
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center link">
-                                <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">
-                                    <a class="link-aemail" href="mailto:mirissadivingandsnorkelingcent@gmail.com">mirissadivingandsnorkelingcent@gmail.com</a>
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center link">
-                                <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0"><a class="link-phone" href="tel:+94713396663">+94 71 339 6663</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2 footer-main">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Quick Links</h4>
-                            <a href="about.html" class="link"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="contact.html" class="link"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-                            <!-- <a href="videos.html" class="link"><i class="fas fa-angle-right me-2"></i> Videos</a> -->
-                            <a href="gallery.html" class="link"><i class="fas fa-angle-right me-2"></i> Images</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 footer-main">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Social Media</h4>
-                            <div class="team-icon d-flex d-xl-flex link">
-                                <a class="btn btn-square rounded-circle mx-1"
-                                    href=""
-                                    style="background-color: #1877F2; color: white;">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="btn btn-square rounded-circle mx-1"
-                                    href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services"
-                                    style="background-color: #25D366; color: white;">
-                                    <i class="fab fa-whatsapp"></i>
-                                </a>
-                                <a class="btn btn-square rounded-circle mx-1" href=""
-                                    style="background-color: #E4405F; color: white;">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                                <a class="btn btn-square rounded-circle mx-1"
-                                    href=""
-                                    style="background-color: #34E0A1; color: white;">
-                                    <img src="img/TripAdvicer.png" alt="TripAdvisor"
-                                        style="width: 30px; height: 30px; border-radius: 50%;" loading="lazy">
-                                </a>
-                            </div>
+                            <a class="btn btn-square rounded-circle mx-1"
+                                href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services"
+                                style="background-color: #25D366; color: white;">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""
+                                style="background-color: #E4405F; color: white;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""
+                                style="background-color: #34E0A1; color: white;">
+                                <img src="img/TripAdvicer.png" alt="TripAdvisor"
+                                    style="width: 30px; height: 30px; border-radius: 50%;" loading="lazy">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Footer End -->
 
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-3">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>WebMind Innovations, All right reserved.</span>
-                    </div>
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-3">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>WebMind Innovations, All
+                        right reserved.</span>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
+    <!-- Copyright End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        <div id="whatsapp-btn" class="whatsapp-button">
-            <a href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50px"
-                    loading="lazy">
-            </a>
-        </div>
-
-
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <div id="whatsapp-btn" class="whatsapp-button">
+        <a href="https://wa.me/+94713396663?text=Hello%20I%20would%20like%20to%20inquire%20about%20your%20services">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50px"
+                loading="lazy">
+        </a>
+    </div>
 
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
