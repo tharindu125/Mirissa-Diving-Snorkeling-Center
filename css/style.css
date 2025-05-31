@@ -781,6 +781,26 @@
     background: var(--bs-light);
 }
 
+.blog-content h4 {
+    font-size: 18px;
+}
+
+.blog-content h5{
+    font-size: 16px;
+}
+
+.blog-content p {
+    font-size: 14px;
+}
+
+.blog-content h6 {
+    font-size: 15px;
+}
+
+.blog-content {
+    min-height:700px;
+}
+
 /*** Blog End ***/
 
 /*** Team Start ***/
