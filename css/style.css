@@ -45,8 +45,8 @@
 }
 
 .btn-lg-square {
-    width: 56px;
-    height: 56px;
+    width: 35px;
+    height: 35px;
 }
 
 .btn-xl-square {
@@ -374,7 +374,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/scuba-diving-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -486,7 +486,7 @@
     bottom: 0;
     left: 0;
     border-radius: 10px;
-    background: var(--bs-primary);
+    background: var(--bs-warning);
     transition: 0.5s;
     z-index: 2;
 }
@@ -496,7 +496,7 @@
 }
 
 .service .service-item i {
-    color: var(--bs-primary);
+    color: var(--bs-warning);
     transition: 0.5s;
 }
 
@@ -542,7 +542,7 @@
     overflow: hidden;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/scuba-diving-hero.jpg) center center no-repeat;
     background-size: cover;
     z-index: -2;
     animation-name: attraction-image-zoom;
@@ -883,7 +883,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url(../img/snorkeling-turtles.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -923,8 +923,8 @@
 }
 
 .testimonial-item .testimonial-inner .testimonial-img img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     border: 2px solid var(--bs-white);
 }
@@ -1021,6 +1021,9 @@
     color: var(--bs-primary);
 }
 
+.testimonial-item h4 {
+    font-size: 18px;
+}
 /*** Testimonial End ***/
 
 
@@ -1069,6 +1072,14 @@
     display: flex;
     align-items: center;
     line-height: 35px;
+}
+
+.footer-item h4 {
+    font-size: 18px;
+}
+
+.footer-item p, a {
+    font-size: 15px;
 }
 
 /*** Footer End ***/
@@ -1123,4 +1134,31 @@
     .footer-main {
         margin-top: 1.5rem !important;
     }
+}
+
+/* About */
+.about-sub_1 h3 {
+    font-size: 25px;
+}
+
+.about-sub_1 h4 {
+    font-size: 18px;
+}
+
+.about-sub_1 h5 {
+    font-size: 16px;
+}
+
+.about-sub_1 p {
+    font-size: 14px;
+}
+
+.about-content {
+    background-color: rgba(0, 166, 255, 0.193);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.576);
+}
+
+.about-img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.576);
 }
